@@ -1,109 +1,125 @@
 body {
-padding-top: 3rem;
-padding-bottom: 3rem;
-color: #5a5a5a;
+  font-family: Verdana, sans-serif;
+  background: #667db6;
+  font-size: 11pt;
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
-.carousel {
-margin-bottom: 4rem;
+header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-.carousel-caption {
-bottom: 3rem;
-z-index: 10;
+h1 {
+  margin-left: 8px;
+  margin-top: 2px;
+  letter-spacing: -1.5px;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
 }
 
-.carousel-item {
-height: 32rem;
-background-color: #777;
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-.carousel-item > img {
-position: absolute;
-top: 0;
-left: 0;
-min-width: 100%;
-height: 32rem;
+.main {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  margin-top: 200px;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+  border-radius: 20px;
+}
+.project {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  margin-top: 50px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  height: 200px;
+  border-radius: 20px;
 }
 
-.marketing .col-lg-4 {
-margin-bottom: 1.5rem;
-text-align: center;
+.circle-green {
+  z-index: -1;
+  position: relative;
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 150px;
+  opacity: 80%;
+  margin-left: calc(10% - 40px);
+  margin-top: -450px;
+  height: 150px;
+  background-color: rgb(115, 226, 111);
+}
+.circle-purple {
+  z-index: -1;
+  position: relative;
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 150px;
+  opacity: 80%;
+  margin-left: calc(90% - 100px);
+  margin-top: 160px;
+  height: 150px;
+  background-color: rgb(170, 111, 226);
 }
 
-.marketing h2 {
-font-weight: 400;
+.github-icon {
+  position: fixed;
+  color: whitesmoke;
+  margin-left: calc(100% - 40px);
+  margin-top: -52px;
+  cursor: pointer;
 }
 
-.marketing .col-lg-4 p {
-margin-right: .75rem;
-margin-left: .75rem;
+p {
+  margin-left: 10px;
+  color: whitesmoke;
+  margin-right: 10px;
 }
 
-.featurette-heading {
-font-weight: 300;
-line-height: 1;
-letter-spacing: -.05rem;
+::selection {
+  background: #2191ce;
+}
+::-moz-selection {
+  background: #2191ce;
 }
 
-@media (min-width: 40em) {
-.carousel-caption p {
-margin-bottom: 1.25rem;
-font-size: 1.25rem;
-line-height: 1.4;
-}
-
-.featurette-heading {
-font-size: 50px;
-}
-}
-
-@media (min-width: 62em) {
-.featurette-heading {
-margin-top: 7rem;
-}
-}
-
-.navbar-brand
-{
-  position: absolute;
-  left:calc(50% - 30px);
-  top:6px;
-  font-family: customFont;
-}
-
-.navbar-brand:hover
-{
-    color: #2280f2 !important;
-}
-
-.carousel-caption
-{
-  font-family: customFont;
-}
-
-.btn-outline-dark
-{
-  font-family: customFont;
-  height: 35px;
-}
-
-p
-{
-  font-family: customFont;
-}
-
-h2
-{
-  font-family: customFont;
-}
-
-h5
-{
-  font-family: customFont;
-}
-
-label
-{
-  font-family: customFont;
+.project-title {
+  margin-top: 5px;
+  color: whitesmoke;
+  margin-left: 20px;
 }
