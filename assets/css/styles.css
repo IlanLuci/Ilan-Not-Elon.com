@@ -42,6 +42,13 @@ a {
   color: whitesmoke;
 }
 
+img {
+  border-radius: 10px;
+  height: 140px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .main {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
