@@ -78,6 +78,16 @@ img {
   border-radius: 20px;
 }
 
+.project a {
+  margin: 2px;
+  display: inline-block;
+}
+
+.project svg {
+  vertical-align: middle;
+  margin-top: -8px;
+}
+
 .circle-green {
   z-index: -1;
   position: relative;
