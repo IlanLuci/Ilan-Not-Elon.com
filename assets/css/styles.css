@@ -48,6 +48,14 @@ img {
   height: 140px;
   margin-left: 10px;
   margin-bottom: 10px;
+  display: inline;
+}
+
+.images {
+  height: 150px;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
 }
 
 .main {
