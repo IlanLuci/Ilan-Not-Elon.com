@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-  font-family: Verdana, sans-serif;
-  background: #667db6;
-  color: whitesmoke;
+  font-family: "Noto Serif", serif;
+  background: whitesmoke;
+  font-weight: 300;
+  color: #222;
   font-size: 11pt;
-  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
-  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
 }
 
 header {
@@ -13,18 +13,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 40px;
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  height: 50px;
+  border-bottom: 2px solid #222;
+  background-color: whitesmoke;
 }
 
 h1 {
-  margin-left: 8px;
-  margin-top: 2px;
+  margin-left: 10px;
+  margin-top: 6px;
   letter-spacing: -1.5px;
   user-select: none;
   /* supported by Chrome and Opera */
@@ -40,7 +36,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #222;
 }
 
 img {
@@ -58,30 +54,25 @@ img {
 }
 
 .main {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  margin-top: 200px;
-  width: 80%;
+  background-color: whitesmoke;
+  border: 2px solid #222;
+  margin-top: 130px;
+  width: calc(80% - 32px);
   margin-left: 10%;
-  border-radius: 20px;
+  padding: 10px 16px;
 }
 .project {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  border: 2px solid #222;
   margin-top: 50px;
-  width: 80%;
+  width: calc(80% - 20px);
   margin-bottom: 50px;
+  background-color: whitesmoke;
   margin-left: 10%;
   min-height: 200px;
-  border-radius: 20px;
+  padding: 5px 10px 10px 10px;
+}
+.text {
+  /* margin-right: 40%; */
 }
 
 .project a {
@@ -96,61 +87,67 @@ img {
 
 .circle-green {
   z-index: -1;
-  position: relative;
-  background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  position: absolute;
   border-radius: 50%;
   width: 150px;
-  opacity: 80%;
-  margin-left: calc(10% - 40px);
-  margin-top: -450px;
+  left: calc(10% - 80px);
+  top: 250px;
   height: 150px;
-  background-color: rgb(115, 226, 111);
+  background-color: #60d394;
 }
-.circle-purple {
+.circle-red {
   z-index: -1;
-  position: relative;
+  position: absolute;
   background: rgba(255, 255, 255, 0.21);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   width: 150px;
   opacity: 80%;
-  margin-left: calc(90% - 100px);
-  margin-top: 160px;
+  left: calc(90% - 100px);
+  top: 550px;
   height: 150px;
-  background-color: rgb(170, 111, 226);
+  background-color: #ee6055;
 }
 
+.insta-icon {
+  position: fixed;
+  color: #222;
+  margin-left: calc(100% - 135px);
+  margin-top: -55px;
+  cursor: pointer;
+}
 .github-icon {
   position: fixed;
-  color: whitesmoke;
-  margin-left: calc(100% - 40px);
-  margin-top: -52px;
+  color: #222;
+  margin-left: calc(100% - 90px);
+  margin-top: -55px;
   cursor: pointer;
 }
 .linkedin-icon {
   position: fixed;
-  color: whitesmoke;
-  margin-left: calc(100% - 80px);
-  margin-top: -52px;
+  color: #222;
+  margin-left: calc(100% - 45px);
+  margin-top: -55px;
   cursor: pointer;
 }
 
 p {
   margin-left: 10px;
-  color: whitesmoke;
+  color: #222;
   margin-right: 10px;
 }
 
 ::selection {
-  background: #2191ce;
+  background: #3695c8;
 }
 ::-moz-selection {
-  background: #2191ce;
+  background: #3695c8;
 }
 
 .project-title {
-  margin-top: 5px;
-  color: whitesmoke;
-  margin-left: 20px;
+  margin-top: 8px;
+  color: #222;
+  margin-left: 12px;
+  margin-bottom: 2px;
+  margin-right: 5px;
 }
