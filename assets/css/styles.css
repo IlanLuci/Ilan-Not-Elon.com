@@ -13,8 +13,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
-  border-bottom: 2px solid #222;
+  height: 55px;
+  border-bottom: 1px solid #222;
   background-color: whitesmoke;
 }
 
@@ -40,10 +40,10 @@ a {
 }
 
 img {
-  border-radius: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
   display: inline;
+  border: 1px solid #222;
 }
 
 .images {
@@ -55,14 +55,14 @@ img {
 
 .main {
   background-color: whitesmoke;
-  border: 2px solid #222;
+  border: 1px solid #222;
   margin-top: 130px;
   width: calc(80% - 32px);
   margin-left: 10%;
   padding: 10px 16px;
 }
 .project {
-  border: 2px solid #222;
+  border: 1px solid #222;
   margin-top: 50px;
   width: calc(80% - 20px);
   margin-bottom: 50px;
@@ -147,7 +147,7 @@ p {
 .project-title {
   margin-top: 8px;
   color: #222;
-  margin-left: 12px;
+  margin-left: 10px;
   margin-bottom: 2px;
   margin-right: 5px;
 }
