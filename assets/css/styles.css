@@ -7,6 +7,12 @@ body {
   font-size: 11pt;
 }
 
+body, html {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
 header {
   z-index: 1;
   position: fixed;
