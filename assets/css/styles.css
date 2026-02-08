@@ -7,13 +7,6 @@ body {
   font-size: 11pt;
 }
 
-body, html {
-  overflow-x: hidden;
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   z-index: 1;
   position: fixed;
@@ -105,12 +98,10 @@ img {
 .circle-red {
   z-index: -1;
   position: absolute;
-  background: rgba(255, 255, 255, 0.21);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   width: 150px;
   opacity: 80%;
-  left: calc(90% - 100px);
+  right: calc(5%);
   top: 550px;
   height: 150px;
   background-color: #ee6055;
