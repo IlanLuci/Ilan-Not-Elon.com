@@ -15,7 +15,7 @@
         <meta name="url" content="https://ilan-not-elon.com/">
         <meta name="HandheldFriendly" content="True">
         <!-- update when i make changes -->
-        <meta name="revised" content="Thursday, May 21st, 2026, 7:00 pm">
+        <meta name="revised" content="Thursday, May 28th, 2026, 10:00 am">
 
         <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.png">
         <link rel="manifest" href="assets/icons/site.webmanifest">
@@ -120,7 +120,9 @@
                 </svg>
             </a>
 
-            <p>This is a portfolio tracking tool I built using Claude and Copilot. It can be used to track multiple investment, cash, and crypto accounts in one place, viewing both long-term trends and real-time performance. It supports brokerage, Roth IRA, Traditional IRA, cash (in any ISO currency), crypto, and watchlist account types, with daily close prices and live quotes pulled from Yahoo Finance. It uses C++ for the data aggregation, storage, and retrieval system — a multithreaded HTTP server with on-disk binary persistence and in-memory quote caching. The frontend is a static website. It is the first hobby project I've created using AI software development agents.</p>
+            <p>This is a portfolio tracking tool I built using Claude and Copilot. It brings multiple investment, cash, crypto, and debt accounts together in one place, so I can see both long-term trends and real-time performance in one place. It supports brokerage, Roth IRA, Traditional IRA, cash (in any ISO currency), crypto, debt (credit cards and other balances that net against your total), and watchlist account types, with daily close prices and live quotes pulled from Yahoo Finance. Accounts can be linked through Plaid for automatic transaction and balance syncing, and a spending-analysis view breaks down where the money actually goes.</p>
+            
+            <p>Under the hood it uses C++ for the data aggregation, storage, and retrieval system — a multithreaded HTTP server with on-disk binary persistence, in-memory quote caching, and a parsed-data cache that skips re-reading files that haven't changed. Responses are gzip-compressed and support conditional (ETag) requests, while the static frontend throttles its polling when the market is closed or the tab is backgrounded. It's the first hobby project I've created using AI software development agents.</p>
             
             <div class="images">
                 <img height="140px" src="assets/images/asset-tracker-portfolio.png" alt="Asset Tracker portfolio page">
@@ -224,7 +226,7 @@
         <!-- Lehigh Hillel Website -->
         <div class="project">
             <a href="https://lehighhillel.org" target="_blank">
-                <h2 class="project-title">Lehigh Hillel</h2>
+                <h2 class="project-title">Lehigh Hillel Website</h2>
             </a>
 
             <!-- <a target="_blank" href="https://github.com/IlanLuci/FlashStudy">
