@@ -1,1 +1,18 @@
-{"name":"","short_name":"","icons":[],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Ilan Luciano",
+  "short_name": "Ilan Luciano",
+  "description": "Ilan Luciano — software developer and entrepreneur.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#60d394",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
