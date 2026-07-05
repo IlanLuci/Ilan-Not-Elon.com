@@ -78,6 +78,24 @@ img {
   /* margin-right: 40%; */
 }
 
+.about-photo {
+  float: right;
+  display: block;
+  width: 240px;
+  height: auto;
+  margin: 4px 4px 10px 20px;
+  border: 1px solid #222;
+}
+
+@media (max-width: 640px) {
+  .about-photo {
+    float: none;
+    width: 200px;
+    max-width: 60%;
+    margin: 4px auto 14px;
+  }
+}
+
 .project a {
   margin: 2px;
   display: inline-block;
